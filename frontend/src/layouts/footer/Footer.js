@@ -119,9 +119,9 @@ class Footer extends React.Component {
                                 <h4 className="footer-title title">Contact Info</h4>
                                 <div className="footer-address">
                                 <ul>
-                                    <li><i className="fa fa-map-marker" /><span>1635 Franklin Street Montgomery, Near Sherwood Mall. AL 36104</span></li>
-                                    <li className="pgs-contact-email"><i className="fa fa-envelope-o" /><span>support@ciyashop.com</span></li>
-                                    <li><i className="fa fa-phone" /><span>126-632-2345</span></li>
+                                    <li><i className="fa fa-map-marker" /><span>Royal Avenue Park Road Islamabad</span></li>
+                                    <li className="pgs-contact-email"><i className="fa fa-envelope-o" /><span>support@Ourshop.com</span></li>
+                                    <li><i className="fa fa-phone" /><span>+923xx-xxxxxxx</span></li>
                                 </ul>
                                 </div>
                             </div>
@@ -149,42 +149,7 @@ class Footer extends React.Component {
                     </div>
                     </div>
                     <div className="footer-bottom-wrapper">
-                    <Container>
-                        <Row>
-                        <div className="col-12">
-                            <div className="footer-bottom">
-                            <Row className="align-items-center">
-                                <Col lg={6}>
-                                <Row>
-                                    <div className="col-12">
-                                    <div className="footer-content">
-                                        CiyaShop Mobile app is Available now. Download it now on your favorite device and indulge in a seamless shopping experience.
-                                    </div>
-                                    </div>
-                                </Row>
-                                </Col>
-                                <Col lg={6}>
-                                <div className="app-group row text-lg-right">
-                                    <Col md={4}>
-                                    <div className="app-img">
-                                        <img src={require(`../../assets/images/appbtntext.png`)} className="img-fluid" alt />
-                                    </div>
-                                    </Col>
-                                    <Col md={8}>
-                                    <Link to="#" className="apps-store-img">
-                                        <img src={require(`../../assets/images/google-play-img.png`)} className="img-fluid" alt />
-                                    </Link>
-                                    <Link to="#" className="apps-store-img">
-                                        <img src={require(`../../assets/images/appstorebtn.png`)} className="img-fluid" alt />
-                                    </Link>
-                                    </Col>
-                                </div>
-                                </Col>
-                            </Row>
-                            </div>
-                        </div>
-                        </Row>
-                    </Container>
+
                     </div>
                     <div className="site-info">
                     <div className="footer-widget">

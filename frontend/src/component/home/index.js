@@ -4,12 +4,13 @@
 import React , {Component} from 'react';
 import HomeSlider from '../../widgets/HomSlider.js';
 import EndOfSeason from '../../widgets/EndOfSeason.js';
-import TopSellingProduct from '../../widgets/TopSellingProduct.js';
+// import TopSellingProduct from '../../widgets/TopSellingProduct.js';
+import TopSellingBrands from '../../widgets/TopSellingBrands.js';
 import HomeBanner from '../../widgets/HomeBanner.js';
 import DealOfTheWeek from '../../widgets/DealOfTheWeek.js';
 import AboutBanner from '../../widgets/AboutBanner.js';
 import Subscribe from '../../widgets/Subscribe.js';
-import OurLatestPost from '../../widgets/OurLatestPost.js';
+// import OurLatestPost from '../../widgets/OurLatestPost.js';
 import { Row, Col,Container } from 'reactstrap';
 import Instagram from '../../widgets/Instafeed.js';
 
@@ -74,7 +75,7 @@ class HomePage extends Component {
                                              </div>
                                            </Col>
                                           </Row>
-                                          <TopSellingProduct />
+                                          <TopSellingBrands />
                                        </Col>
                                     </Row>
                               </Container>
@@ -91,7 +92,7 @@ class HomePage extends Component {
                                  <Subscribe />
                               </Container>
                               <Container>
-                                    <div className="row section-ptb">
+                                    {/* <div className="row section-ptb">
                                        <Col sm={12}>
                                           <div className="row text-center">
                                              <div className="col-sm-12 offset-lg-2 col-lg-8 offset-md-1 col-md-9">
@@ -105,9 +106,9 @@ class HomePage extends Component {
                                              <OurLatestPost settings={latestblogslider}  />
                                            </Row>
                                        </Col>
-                                    </div>
+                                    </div> */}
                                  </Container>
-                                 <div class="content-wrapper overflow-hidden">
+                                 <div class="content-wrapper overflow-hidden m-2">
                                     <div class="container-fluid p-0">
                                           <div class="row">
                                              <div class="col-sm-12">

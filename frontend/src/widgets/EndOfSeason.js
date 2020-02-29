@@ -34,7 +34,7 @@ class EndOfSeason extends Component {
                 </Col>
                 <Col sm={9} className="col-10">
                 <div className="text-wrapper">
-                    <p>Women’s</p>
+                    <p>Men’s</p>
                 </div>
                 </Col>
             </Row>
@@ -45,11 +45,11 @@ class EndOfSeason extends Component {
             </div>
             <Row className="single_image-content">
                 <Col sm={3} className="col-2 px-0">
-                <div className="border-space border-space-dark" />
+                <div className="border-space border-space-light" />
                 </Col>
                 <Col sm={9} className="col-10">
                 <div className="text-wrapper">
-                    <p className="text-dark">Kids</p>
+                    <p>Women's</p>
                 </div>
                 </Col>
             </Row>
@@ -60,11 +60,11 @@ class EndOfSeason extends Component {
             </div>
             <Row className="single_image-content">
                 <Col sm={3} className="col-2 px-0">
-                <div className="border-space border-space-dark" />
+                <div className="border-space border-space-light" />
                 </Col>
                 <Col sm={9} className="col-10">
                 <div className="text-wrapper">
-                    <p className="text-dark">Men</p>
+                    <p >Kids</p>
                 </div>
                 </Col>
             </Row>

@@ -13,6 +13,12 @@ const settings = {
     slidesToShow: 1,
    slidesToScroll: 1
   };
+  const whites={
+     color:'#ffff'
+  };
+  const browns={
+   color:'#a25706'
+}
 
 class HomSlider extends Component {
 
@@ -34,7 +40,7 @@ class HomSlider extends Component {
                                <h1>Spring</h1>
                             </div>
                             <div class="slide-subtitle">Season festival</div>
-                            <span class="slide-since">Catalogue 2018</span>
+                            <span class="slide-since">Catalogue 2020</span>
                           </div>
                           </div>
                           <div class="col-xl-6 col-md-4 text-right d-none d-md-block">
@@ -60,7 +66,7 @@ class HomSlider extends Component {
                           <div class="col-xl-6 col-md-8">
                             <div class="slide-left">
                             <div class="slide-title">
-                               <h1>New Arrival</h1>
+                               <h1 style={whites}>New Arrival</h1>
                             </div>
                             <div class="slide-subtitle">For women</div>
                              <Link class="slide-button-flat" to="/shop">Shop now</Link>
@@ -70,13 +76,42 @@ class HomSlider extends Component {
                              <div class="slide-offer">
                                  Limited time offer
                              </div>
-                             <Link class="slide-button" to="/shop">Get the Offer</Link>
+                             <Link class="slide-button" style={whites} to="/shop">Get the Offer</Link>
                           </div>
                        </div>
                        </div>
                     </div>
                     </div>
                 </div>
+                <div key={3} className="slide-01-item">
+                    <div className="slide-inner">
+                    <div className="slide-image">
+                        <img src={require(`../assets/images/home-01-slider/img-03.jpg`)} alt="slide-1" />
+                    </div>
+                    <div className="slide-content">
+                       <div class="container">
+                       <div class="row">
+                          <div class="col-xl-6 col-md-8">
+                            <div class="slide-left">
+                            <div class="slide-title" >
+                               <h1 style={browns} >New Arrival</h1>
+                            </div>
+                            <div class="slide-subtitle" style={browns}>Assecories</div>
+                             <Link class="slide-button-flat" to="/shop">Shop now</Link>
+                          </div>
+                          </div>
+                          <div class="col-xl-6 col-md-4 text-right d-none d-md-block">
+                             <div class="slide-offer" style={browns}>
+                                 Limited time offer
+                             </div>
+                             <Link class="slide-button" to="/shop" style= {browns}>Get the Offer</Link>
+                          </div>
+                       </div>
+                       </div>
+                    </div>
+                    </div>
+                </div>
+       
         </Slider>
       )
    }

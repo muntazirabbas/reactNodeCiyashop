@@ -34,9 +34,9 @@ class AboutBanner extends Component {
                    <span>Know more</span>
                 </div>
                 <div className="section-title mb-4">
-                  <h2 className="title text-left"> About CiyaShop</h2>
+                  <h2 className="title text-left"> About WebHype</h2>
                 <div className="text-wrapper">
-                    <p>We are CiyaShop ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>We are WebHype ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     { expandedDiv }
                  </div>
                  </div>

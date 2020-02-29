@@ -93,6 +93,9 @@ class ProductList extends Component {
     }
     render() {
         const { product } = this.props;
+       const images={
+            height: '400px'
+        }
 
         let rat = [];
         let rating = product.rating;
@@ -116,7 +119,7 @@ class ProductList extends Component {
                                 <Link to={`/shop/${product.category}/${product.id}`}>
                                     {product.pictures[0] ?
                                         <div className="product-thumbnail-main">
-                                            <img src={require(`../assets/images/${product.pictures[0]}`)} className="img-fluid" />
+                                            <img style={images} src={require(`../assets/images/${product.pictures[0]}`)} className="img-fluid" />
                                         </div>
                                         :
                                         null

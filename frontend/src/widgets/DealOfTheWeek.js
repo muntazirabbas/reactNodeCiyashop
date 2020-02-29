@@ -2,7 +2,7 @@
  * Deal of The Week
  */
 import React , {Component} from 'react';
-import CountDownTimer from './CountDownTimer';
+// import CountDownTimer from './CountDownTimer';
 import { Row, Col, Container } from 'reactstrap';
 import {Link} from 'react-router-dom';
 
@@ -29,7 +29,7 @@ class DealOfTheWeek extends Component {
                             </div>
                             <div className="deal-counter-wrapper mb-3 counter-size-sm counter-style-style-6  vc_custom_1540463711798">
                                 <div className="deal-counter">
-                                    <CountDownTimer time={'152350'}></CountDownTimer>
+                                    {/* <CountDownTimer time={'152350'}></CountDownTimer> */}
                                 </div>
                             </div>
                             <div className="ciyashop_banner-btn-wrap ciyashop_banner-btn-style-flat ciyashop_banner-btn-size-md ciyashop_banner-btn-shape-square justify-content-center mt-lg-5 mt-2"> <Link to="/shop" className="ciyashop_banner-btn">Shop Now</Link></div>

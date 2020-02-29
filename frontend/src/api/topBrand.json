@@ -1,0 +1,97 @@
+[
+    {
+      "id": 1,
+      "name": "Levis",
+      "pictures": ["topbrands/levis.jpg", "topbrands/levis.jpg"],
+      "stock": 16,
+      "price": 200,
+      "discount": 20,
+      "salePrice": 180,
+      "description": "Luxury French fashion house Saint Laurent prides itself on constructing high-quality accessories, as showcased by this black belt, new to the brand's AW17 collection. Expertly constructed from Italian leather and brass, the belt features a long length, a buckle fastening, eyelets and a silver-tone logo plaque..",
+      "rating": 4,
+      "tags": ["accessories", 
+               "Black"],
+
+      "category": "Men's Brand",
+      "colors": ["black", 
+                 "gray",
+                 "red"]
+    },
+   
+    {
+      "id": 39,
+      "name": "Engine",
+      "pictures": ["topbrands/engine.jpg", 
+                   "topbrands/engine.jpg", 
+                   "topbrands/engine.jpg"],
+       "stock": 30,
+       "price": 1200,
+       "discount": 230,
+       "salePrice": 900,
+       "description": "A great outfit is in the details, and the Joseph Cap-Toe Dress Shoe from Goodfellow & Co. is the perfect detail when you want to keep your look high-class. These dressy shoes are the perfect finishing touch to your work outfit — just pair them with a long-sleeve button-down shirt and trousers and head into a sleek day.",
+       "rating": 4,
+       "tags": ["shoes"],
+
+       "category":"Men's Brand",
+       "colors": []
+    },
+      {
+       "id": 40,
+       "name": "Chenone",
+       "pictures": ["topbrands/chenone.jpg", 
+                     "topbrands/chenone.jpg", 
+                     "topbrands/chenone.jpg"],
+       "stock": 2,
+       "price": 635,
+       "discount": 362,
+       "salePrice": 456,
+       "description": "Soften things up in the sweetest style when the weather turns colder with the Cozy Leisure Top from A New Day. This terry sweater keeps a simple design that can be dressed up or down, while the cutout on the back and the tied closure add the right amount of detail. Pair this warm sweater with skinny jeans and sneakers for an easy day out with friends.",
+       "rating": 5,
+       "tags": ["athleisure",
+               "women"],
+
+        "category": "women",
+        "colors": ["pink", 
+                   "white"]  
+      },
+      {
+        "id": 41,
+        "name": "Outfitters",
+        "pictures": ["topbrands/outfitters.jpg", 
+                     "topbrands/outfitters.jpg"],
+         "stock": 3,
+         "price": 200,
+         "salePrice": 120,
+         "discount": 80,
+         "description": "For a casual look that's still as chic as you are, put on the Crochet Bell-Sleeve Dress from Knox Rose. This V-neck dress is accented with crocheted lace around the neckline, as well as crochet dot trim lining the bells of the sleeves. Layer over patterned leggings and riding boots or tights and booties for looks that will keep you comfortable and stylish from brunch with friends to a trip through the farmers market.",
+         "rating": 2,
+        
+         "tags": ["dresswear",
+                 "clothing",
+                   "women"],
+         "category": "Men's & Women's both",
+         "colors": ["green", 
+                     "blue"]
+      },
+      {
+        "id": 42,
+        "name": "Bonanaza",
+        "pictures": ["topbrands/bonanaza1.jpg", 
+                     "topbrands/bonanaza1.jpg", 
+                     "topbrands/bonanaza1.jpg"],
+         "stock": 3,
+         "price": 200,
+         "discount": 40,
+         "salePrice": 160,
+         "description": "Steal the show in this attention grabbing Shift-Dress from Who What Wear. With intricate print along the back, neckline and bottom hem, all eyes will be on you.",
+         "rating": 5,
+         "tags": ["dresswear",
+                 "clothing",
+                 "women"],
+
+        "category": "Men's Brand",
+        "colors": ["red", 
+                 "blue"]
+     }
+ ]
+ 

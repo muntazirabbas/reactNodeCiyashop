@@ -212,7 +212,7 @@ class Header extends React.Component {
                                                 <ul>
 
                                                     <li className="topbar_item topbar_item_type-email">
-                                                        <Link to="/Contactus"><i className="fa fa-envelope-o">&nbsp;</i>support@ciyashop.com</Link>
+                                                        <Link to="/Contactus"><i className="fa fa-envelope-o">&nbsp;</i>support@ourshop.com</Link>
                                                     </li>
                                                     <li className="topbar_item topbar_item_type-phone_number">
                                                         <Link to="/Contactus"><i className="fa fa-phone">&nbsp;</i>126-632-2345</Link>
@@ -229,10 +229,10 @@ class Header extends React.Component {
                                                         <div className="menu-top-bar-menu-container">
                                                             <ul className="top-menu list-inline">
                                                                 <li className="menu-item">
-                                                                    <Link to="/Account/AccountProfile">My account</Link>
+                                                                    {/* <Link to="/Account/AccountProfile">My account</Link> */}
                                                                 </li>
                                                                 <li>
-                                                                    <Link to="#" onClick={this.toggle} data-toggle="modal" data-target="#"><i className="fa fa-sign-in">&nbsp;</i> Login</Link>
+                                                                    {/* <Link to="#" onClick={this.toggle} data-toggle="modal" data-target="#"><i className="fa fa-sign-in">&nbsp;</i> Login</Link> */}
                                                                 </li>
                                                             </ul>
                                                         </div>
