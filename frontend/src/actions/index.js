@@ -2,7 +2,9 @@ import ProductsList from "../api/product.json";
 import axios from "axios";
 export const receiveProducts = () => {
   return async dispatch => {
-    const productdata = ProductsList;
+    // const productdata = ProductsList;
+    const productdata = await axios.get("http://localhost:5001/api/v1/products/");
+
     dispatch({
       type: "ACTUAL_PRODUCTS",
       products: productdata
